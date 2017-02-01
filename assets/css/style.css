@@ -81,7 +81,7 @@
 
 #profilePic {
 	height: 200px;
-	width: 200px
+	width: 200px;
 	float: left;
 	margin: 10px;
 }
@@ -106,7 +106,7 @@
 #connect {
 	float: left;
 	width: 270px;
-	padding: 10px 20px 30px 20px;
+	padding: 20px 20px 30px 20px;
 	margin-right: 10px;
 	margin-top: 11px;
 	background-color: #ffffff;
@@ -234,6 +234,29 @@
 #div5pic {
 	display: block;
 }
+
+#div6 {
+	position: relative;
+	float: left;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #cccccc;
+	margin: 20px 20px 20px 20px;
+}
+#div6 h3 {
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding: 10px 20.5px 10px 23.5px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 15px;
+}
+
+#div6pic {
+	display: block;
+}
 .mainDiv {
 	float: left;
 	clear: both;
@@ -319,7 +342,7 @@ h2 {
 	position: relative;
 	clear: both;
 	bottom: 0px;
-	width: 960px;
+	width: 100%;
 	text-align: center;
 	border-top: transparent;
 	border-top-width: 5px;
@@ -335,7 +358,7 @@ h2 {
 	position: relative;
 	clear: both;
 	bottom: 0px;
-	width: 960px;
+	width: 100%;
 	text-align: center;
 	border-top: transparent;
 	border-top-width: 5px;
@@ -344,14 +367,14 @@ h2 {
 	background-color: #666666;
 	padding: 15px;
 	color: #cccccc;
-	font-size: 65%
+	font-size: 65%;
 }
 
 #contactFooter{
 	position: relative;
 	clear: both;
 	bottom: 0px;
-	width: 960px;
+	width: 100%;
 	text-align: center;
 	border-top: solid;
 	border-top-width: 5px;
